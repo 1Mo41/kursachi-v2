@@ -22,11 +22,11 @@
                 <a class="list" href="<?= app()->route->getUrl('/login') ?>">Вход</a>
                 <a class="list" href="<?= app()->route->getUrl('/signup') ?>">Регистрация</a>
             <?php
-            elseif(app()->auth::check() && app()->auth::user()->isAdmin()):
+            elseif(app()->auth::check() && app()->auth::user()):
                 ?>
                 <a>Вы зашли под пользователем: <b>(<?= app()->auth::user()->name ?>)</b></a>
                 <a class="add" href="<?= app()->route->getUrl('/proverka') ?>">Главная</a>
-                <a  href="<?= app()->route->getUrl('/add_personal') ?>">Добавить сотрудника</a>
+                <a  href="<?= app()->route->getUrl('/add_menu') ?>">Добавить сотрудника</a>
                 <a class="add" href="<?= app()->route->getUrl('/hello') ?>">Поиск сотрудников </a>
             <?php
             endif;

@@ -1,9 +1,9 @@
 <?php return array(
     'root' => array(
         'name' => 'zabyton/kursachi1',
-        'pretty_version' => '1.0.0+no-version-set',
-        'version' => '1.0.0.0',
-        'reference' => NULL,
+        'pretty_version' => 'dev-master',
+        'version' => 'dev-master',
+        'reference' => '803351795b879e2c8d8afec50c6facc4708af2f7',
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -226,9 +226,9 @@
             'dev_requirement' => false,
         ),
         'zabyton/kursachi1' => array(
-            'pretty_version' => '1.0.0+no-version-set',
-            'version' => '1.0.0.0',
-            'reference' => NULL,
+            'pretty_version' => 'dev-master',
+            'version' => 'dev-master',
+            'reference' => '803351795b879e2c8d8afec50c6facc4708af2f7',
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),

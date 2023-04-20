@@ -10,17 +10,17 @@
 </head>
 <body>
 <main>
-    <h2 class="centr">Добавить сотрудника</h2>
+    <h2 class="centr">Добавить в меню</h2>
 
     <form method="post">
         <div class="zapros">
             <input name="csrf_token" type="hidden" value="<?= app()->auth::generateCSRF() ?>"/>
-            <label>ФИО<br> <input type="text" name="ФИО"></label>
-            <label>Дата рождения<br><input type="date" name="birthday"></label>
+            <label>Ингредиент<br> <input type="text" name="ФИО"></label>
+            <label>Ингредиент<br><input type="date" name="birthday"></label>
             </label>
 
-            <label>Адрес <br><input type="text" name="Адрес"></label>
-            <label>age<br> <input type="number" name="age"></label>
+            <label>Описание <br><input type="text" name="Адрес"></label>
+            <label>Цена<br> <input type="number" name="age"></label>
 
 
 

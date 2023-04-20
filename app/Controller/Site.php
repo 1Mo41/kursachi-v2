@@ -51,80 +51,24 @@ class Site
         Auth::logout();
         app()->route->redirect('/hello');
     }
-//
-//    public function add_personal(Request $request): string
-//    {
-//        $subdivision = Subdivision::all();
-//        $position = Position::all();
-//        $compound = Compound::all();
-//        $pols = pol::all();
-//        //Если просто обращение к странице, то отобразить форму
-//        if ($request->method === 'POST' && Employees::create($request->all())) {
-//            app()->route->redirect('/proverka');
-//        }
-//
-//        return new View('site.add_personal', ['subdivision' => $subdivision, 'position' => $position, 'compound' => $compound, 'pols' => $pols]);
-//
-//
-//    }
 
-//    public function proverka(Request $request): string
-//    {
-//        $employees = Employees::all();
-//        $emplo = DB::table('employees')
-//            ->join('pol', 'employees.polID', '=', 'pol.polID')
-//            ->join('position', 'employees.ДолжностьID', '=', 'position.ДолжностьID')
-//            ->join('Compound', 'position.СоставID', '=', 'Compound.СоставID')
-//            ->join('Subdivision', 'employees.ПодразделениеID', '=', 'Subdivision.ПодразделениеID')
-//            ->select('employees.*', 'pol.*', 'position.*', 'Compound.*', 'Subdivision.*')
-//            ->get();
-//
-//        $agevivod = DB::table('employees')
-//            ->avg('age');
-//        return new View('site.proverka', ['employees' => $employees, 'agevivod' => $agevivod, 'emplo' => $emplo]);
-//
-//
-//    }
-//
-//    public function search(Request $request)
-//    {
-//        $employees = Employees::all();
-//        $subdivision = Subdivision::all();
-//        $compound = Compound::all();
-//        $search1 = $request->all();
-//        if (isset($search1['search1'])) {
-//            $cartons = DB::table('employees')
-//                ->join('position', 'employees.ДолжностьID', '=', 'position.ДолжностьID')
-//                ->join('Compound', 'position.СоставID', '=', 'Compound.СоставID')
-//                ->join('Subdivision', 'employees.ПодразделениеID', '=', 'Subdivision.ПодразделениеID')
-//                ->where('Compound.НазваниеСостава', $search1['search1'])
-//                ->get();
-//        }
-//        return (new View())->render('site.search', ['compound' => $compound, 'subdivision' => $subdivision, 'employees' => $employees, 'cartons' => $cartons]);
-//    }
-//
     public function proverka(Request $request): string
     {
 
         return new View('site.proverka');
     }
-//
-//    public function search1(Request $request)
-//    {
-//        $employees = Employees::all();
-//        $subdivision = Subdivision::all();
-//        $compound = Compound::all();
-//        $search2 = $request->all();
-//        if (isset($search2['search2'])) {
-//            $cartons = DB::table('employees')
-//                ->join('position', 'employees.ДолжностьID', '=', 'position.ДолжностьID')
-//                ->join('Compound', 'position.СоставID', '=', 'Compound.СоставID')
-//                ->join('Subdivision', 'employees.ПодразделениеID', '=', 'Subdivision.ПодразделениеID')
-//                ->where('Subdivision.Подразделение', $search2['search2'])
-//                ->get();
-//        }
-//        return (new View())->render('site.search1', ['compound' => $compound, 'subdivision' => $subdivision, 'employees' => $employees, 'cartons' => $cartons]);
-//    }
+
+    public function hello(Request $request): string
+    {
+
+        return new View('site.hello');
+    }
+
+    public function add_menu(Request $request): string
+    {
+
+        return new View('site.add_menu');
+    }
 
 
 }

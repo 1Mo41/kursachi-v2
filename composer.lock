@@ -1398,8 +1398,8 @@
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
-        "nikic/fast-route": 20,
-        "illuminate/events": 20
+        "illuminate/events": 20,
+        "illuminate/database": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,
