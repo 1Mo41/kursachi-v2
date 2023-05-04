@@ -1,0 +1,143 @@
+body{
+    background-color: #B9B9B9;
+}
+.header{
+
+
+}
+.vixod{
+    float: right;
+}
+.list{
+    padding: 10px;
+}
+.line{
+    width: 1000px;
+    color: black;
+}
+.centr{
+    text-align: center;
+}
+.reg{
+    display: table-cell;
+    white-space: pre-line;
+    word-wrap: break-word;
+    background-color: #6D6D6D;
+    height: 535px;
+    width: 425px;
+    padding-left:200px ;
+    border-radius: 20px;
+}
+form{
+    display: flex;
+    justify-content: center;
+
+}
+input,button{
+    justify-content: center;
+    height: 40px;
+    width: 200px;
+    border-radius: 10px;
+}
+.search{
+
+    white-space: pre-line;
+    word-wrap: break-word;
+    background-color: #6D6D6D;
+    height: 800px;
+    width: 800px;
+    margin-left: 600px;
+    border-radius: 20px;
+    text-align: center;
+}
+.zapros{
+    display: table-cell;
+    white-space: pre-line;
+    word-wrap: break-word;
+    background-color: #6D6D6D;
+    height: 800px;
+    width: 425px;
+    padding-left:200px ;
+    border-radius: 20px;
+
+}
+.zaprosik{
+    background-color: #6D6D6D;
+    height: 800px;
+    width: 800px;
+    margin-left:550px ;
+    border-radius: 20px;
+}
+.add{
+    padding-left: 5px;
+
+}
+.vivod{
+    background-color: #6D6D6D;
+    height: 600px;
+    width: auto;
+    padding-left:200px ;
+    border-radius: 20px;
+}
+.login{
+    display: table-cell;
+    white-space: pre-line;
+    word-wrap: break-word;
+    background-color: #6D6D6D;
+    height: 535px;
+    width: 425px;
+    padding-left:200px ;
+    border-radius: 20px;
+    line-height: 50px;
+}
+.down{
+    margin-top: 40px;
+}
+.vixod{
+    padding-right: 5px;
+}
+a{
+    text-decoration: none;
+    color: black;
+
+}
+label{
+    color: white;
+
+}
+.vivodi{
+    display: flex;
+    justify-content: space-between;
+    height: auto;
+    width: auto;
+    background-color: #6D6D6D;
+
+}
+.p{
+    color: white;
+    padding: 5px;
+
+}
+.colum{
+    display: flex;
+    justify-content: space-around;
+    width: 1800px;
+}
+.column{
+    display: flex;
+    justify-content: space-between;
+}
+select{
+    justify-content: center;
+    height: 40px;
+    width: 200px;
+    border-radius: 10px;
+}
+.block{
+    background-color: #6D6D6D;
+    width: 200px;
+    height: 200px;
+    -moz-hyphens: auto;
+    -webkit-hyphens: auto;
+    -ms-hyphens: auto;
+}

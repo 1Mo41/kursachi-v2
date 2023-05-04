@@ -1,0 +1,24 @@
+{
+    "name": "zabyton/kursachi1",
+    "description": "Pain",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Nikolai"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": "^7.4 | ^8.0",
+        "nikic/fast-route": "^2.0@dev",
+        "illuminate/events": "10.x-dev",
+        "illuminate/database": "10.x-dev"
+    },
+    "autoload": {
+        "psr-4": {
+            "Src\\": "core/Src/",
+            "": "app/"
+        }
+    }
+}
